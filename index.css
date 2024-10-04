@@ -1,0 +1,23 @@
+img {width: 200px; height: 200px;}
+
+h2{color: chocolate;}
+h3{color: hotpink;}
+h4{color:brown}
+p{color:cornflowerblue}
+h3{text-align: center;}
+
+
+.rainbow-text {
+  background: linear-gradient(to right, red, orange, rgb(255, 0, 200), green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+
+footer {
+ text-align: center;
+ padding: 5px;
+ background-color:bisque;
+ color:chocolate;
+}
