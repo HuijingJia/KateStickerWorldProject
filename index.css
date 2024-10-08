@@ -1,14 +1,70 @@
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
 
-img {
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
 
-  width: 200px; height: 200px;}
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
 
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
 body{
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
-  background-color:rgba(230, 225, 173, 0.859);
 }
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+    background-color: seagreen;
+  }
+}
+
+img {
+
+  width: 200px; 
+  height: 200px;
+}
+
+div{
+  display: inline-block;
+  margin: 10px;
+  width: 414px;
+  height: auto;
+}
+
+
 
 h2{color: chocolate;}
 h3{color: hotpink;}
@@ -28,6 +84,6 @@ h3{text-align: center;}
 footer {
  text-align: center;
  padding: 5px;
- background-color:bisque;
- color:chocolate;
+ background-color:rgb(14, 14, 233);
+ color:white;
 }
