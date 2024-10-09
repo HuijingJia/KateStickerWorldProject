@@ -28,6 +28,7 @@ footer {
 
 .card {
   width: 45%;
+  border: 10px solid white;
 }
 
 .left {
@@ -35,17 +36,18 @@ footer {
 }
 
 .right {
-  float: right;
+  float: left;
 }
 
 .creative {
   color: midnightblue;
 }
 
+.logo {
+  width: 168px;
+}
+
 @media (max-width: 680px) {
-  .logo {
-    width: 100px;
-  }
 
   h1 {
     font-size: 3.5rem;
